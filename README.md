@@ -1,4 +1,4 @@
-#🚀 AI Safety Incident API
+# 🚀 AI Safety Incident API
 you will enjoy reading this 😉😊
 
 and if you don't want to read all this, just scroll a little down — you'll find a quick professional summary — short, crisp, no drama 😅.
