@@ -1,0 +1,13 @@
+[package]
+name = "ai-safety-incidents"
+version = "0.1.0"
+edition = "2021"  # Keep this Rust edition
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"] }
+diesel = { version = "2.1.0", features = ["sqlite", "chrono"] }
+diesel_migrations = "2.1.0"
+chrono = { version = "0.4", features = ["serde"] }
+rocket_sync_db_pools = { version = "0.1.0", features = ["diesel_sqlite_pool"] }
+serde = { version = "1.0", features = ["derive"] }
+dotenv = "0.15"

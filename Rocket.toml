@@ -1,0 +1,2 @@
+[default]
+databases = { sqlite_incidents = { url = "data/incidents.db" } }
