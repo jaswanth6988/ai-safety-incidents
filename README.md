@@ -12,36 +12,36 @@ I'm a cybersecurity explorer.
 While facing different challenges, I came across Rust — found it super interesting, and decided to learn it...
 4 months of painful struggle later 😭, I got just a little good at it — no time to master it fully.
 
-Still, Rust is awesome:
-🚀 Super fast
-🛡️ Memory safe
-🔥 Very secure
-🖥️ Low CPU usage
-⚙️ Error handling like a boss
+Still, Rust is awesome:  
+🚀 Super fast  
+🛡️ Memory safe  
+🔥 Very secure  
+🖥️ Low CPU usage  
+⚙️ Error handling like a boss  
 💬 C++-like syntax, but oh boy... it's like hard mode unlocked 😂 — you have to think hard to code hard.
 
 
-# 🎯 Quick Professional Summary
+# 🎯 Quick Professional Summary  
 
-🏢 Backend Intern Take-Home Assignment: HumanChain AI Safety Incident Log API
-Goal:
-Assess fundamental backend development skills — API design, request handling, data persistence.
-Context:
-HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.
-Assignment:
-Build a simple backend API service to log and manage AI safety incidents.
+🏢 Backend Intern Take-Home Assignment: HumanChain AI Safety Incident Log API  
+Goal:  
+Assess fundamental backend development skills — API design, request handling, data persistence.  
+Context:  
+HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.  
+Assignment  
+Build a simple backend API service to log and manage AI safety incidents.  
 
 
-🖥️ My Setup
-OS: WSL2 with Kali Linux
-Language: Rust
-Framework: Rocket
-Database: SQLite
-ORM & Query Builder: Diesel
-Some Tools: chrono, serde, dotenv, git
+🖥️ My Setup  
+OS: WSL2 with Kali Linux  
+Language: Rust  
+Framework: Rocket  
+Database: SQLite  
+ORM & Query Builder: Diesel  
+Some Tools: chrono, serde, dotenv, git  
 
 treestructure:-
-During build
+During build  
 ![Screenshot 4](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(4).png)
 ```
 ┌──(jash㉿DESKTOP-OIUGBAA)-[/mnt/d/KaliWsl/ai-safety-incidents]
@@ -87,11 +87,11 @@ A secure, lightweight REST API for logging and managing AI safety incidents, bui
 
 🌟 Features
 
-Endpoint	Method	Description
-/incidents	GET	List all incidents
-/incidents	POST	Create a new incident
-/incidents/{id}	GET	Get details of a specific incident
-/incidents/{id}	DELETE	Delete an incident
+Endpoint	Method	Description  
+/incidents	GET	List all incidents  
+/incidents	POST	Create a new incident  
+/incidents/{id}	GET	Get details of a specific incident  
+/incidents/{id}	DELETE	Delete an incident  
 
 
 # 📦 Incident Model:
@@ -113,12 +113,13 @@ Endpoint	Method	Description
 [![Rocket](https://img.shields.io/badge/Rocket-0.5-red.svg)](https://rocket.rs)  
 [![Diesel](https://img.shields.io/badge/Diesel-SQLite-green.svg)](https://diesel.rs) 
 
-Prerequisites
-Rust 1.70+ →  ``` curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh ```
-SQLite3 → ``` sudo apt install sqlite3 libsqlite3-dev ```
-Diesel CLI → ```cargo install diesel_cli --no-default-features --features sqlite```
+Prerequisites  
+Rust 1.70+ →  ``` curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh ```  
+SQLite3 → ``` sudo apt install sqlite3 libsqlite3-dev ```  
+Diesel CLI → ```cargo install diesel_cli --no-default-features --features sqlite```  
 
-# 📌 Create the Project
+# 📌 Create the Project  
+
 1. Create a new Rust project
 ```
 cargo new ai-safety-incidents
