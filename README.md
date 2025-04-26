@@ -43,6 +43,7 @@ Some Tools: chrono, serde, dotenv, git
 treestructure:-
 During build
 ![Screenshot 4](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(4).png)
+```
 ┌──(jash㉿DESKTOP-OIUGBAA)-[/mnt/d/KaliWsl/ai-safety-incidents]
 └─$ tree -L 3 -I 'target|.git'
 .
@@ -72,7 +73,7 @@ During build
     └── schema.rs
 
 6 directories, 19 files
-
+```
 
 ⚡ Why These Choices?
 Choice	Reason
