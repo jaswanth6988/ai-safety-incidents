@@ -3,7 +3,7 @@ you will enjoy reading this 😉😊
 
 and if you don't want to read all this, just scroll a little down — you'll find a quick professional summary — short, crisp, no drama 😅.
 
-yo! If you're reading this, trust me, I'm writing this not completely with AI 😅 :).
+yo! If you're reading this, trust me, I'm writing this not completely with AI 😅 :) please ignore small spelling mistakes.
 This is an API project assignment given by a company. (I added the question below for reference.)
 The task was simple: create an API.
 
@@ -29,6 +29,7 @@ Goal: Assess fundamental backend development skills — API design, request hand
 Context: HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.  
 Assignment Build a simple backend API service to log and manage AI safety incidents.  
 
+**quick note :- before diving into project you might face some bugs which imay not provided all solutions i also faced few silly bugs such as rocket failure , main.rs not sends request just changed the codes from redit and stackoverflow to see the most solution that worked for everyone home you face no bug while following my steps :)**
 
 🖥️ My Setup  
 OS: WSL2 with Kali Linux  
@@ -334,13 +335,18 @@ cargo test ( for through check)
 cargo build
 
 cargo run
+
 ```
 ![Screenshot 1](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(1).png)
 ![Screenshot 2](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(2).png)
 
+danm your server runing man get the job done now!
+
 
 📡 API Usage
 Create an Incident
+
+creats an request to our server to register a new incident
 ```
 curl -X POST -H "Content-Type: application/json" -d '{
   "title": "Data Leakage",
