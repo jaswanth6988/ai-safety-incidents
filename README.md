@@ -1,4 +1,4 @@
-🚀 AI Safety Incident API
+#🚀 AI Safety Incident API
 you will enjoy reading this 😉😊
 
 and if you don't want to read all this, just scroll a little down — you'll find a quick professional summary — short, crisp, no drama 😅.
@@ -7,7 +7,7 @@ yo! If you're reading this, trust me, I'm writing this not completely with AI �
 This is an API project assignment given by a company. (I added the question below for reference.)
 The task was simple: create an API.
 
-✨ Why I used Rust
+#✨ Why I used Rust
 I'm a cybersecurity explorer.
 While facing different challenges, I came across Rust — found it super interesting, and decided to learn it...
 4 months of painful struggle later 😭, I got just a little good at it — no time to master it fully.
@@ -21,7 +21,7 @@ Still, Rust is awesome:
 💬 C++-like syntax, but oh boy... it's like hard mode unlocked 😂 — you have to think hard to code hard.
 
 
-🎯 Quick Professional Summary
+#🎯 Quick Professional Summary
 
 🏢 Backend Intern Take-Home Assignment: HumanChain AI Safety Incident Log API
 Goal:
@@ -60,7 +60,7 @@ Endpoint	Method	Description
 /incidents/{id}	DELETE	Delete an incident
 
 
-📦 Incident Model:
+#📦 Incident Model:
 
 ```
 {
@@ -73,7 +73,7 @@ Endpoint	Method	Description
 ```
 
 
-🛠️ Setup
+#🛠️ Setup
 
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org)  
 [![Rocket](https://img.shields.io/badge/Rocket-0.5-red.svg)](https://rocket.rs)  
@@ -84,7 +84,7 @@ Rust 1.70+ →  ``` curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | 
 SQLite3 → ``` sudo apt install sqlite3 libsqlite3-dev ```
 Diesel CLI → ```cargo install diesel_cli --no-default-features --features sqlite```
 
-📌 Create the Project
+#📌 Create the Project
 1. Create a new Rust project
 ```
 cargo new ai-safety-incidents
@@ -409,7 +409,7 @@ git pusing to github(just pasted my terminal for refrence and removed unwanted t
   222  git status
 ```
 
-👋 Thanks for Reading!
+#👋 Thanks for Reading!
 
 Trust me, Rust will punch you hard at first, but when you get it... it feels like controlling a beast 🚀.
 Happy coding and don forget to hire me 😉!
