@@ -29,7 +29,9 @@ Goal: Assess fundamental backend development skills — API design, request hand
 Context: HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.  
 Assignment Build a simple backend API service to log and manage AI safety incidents.  
 
-### **quick note :- before diving into project you might face some bugs which imay not provided all solutions i also faced few silly bugs such as rocket failure , main.rs not sends request just changed the codes from redit and stackoverflow to see the most solution that worked for everyone home you face no bug while following my steps :)**
+### **quick note :- Before diving into the project, you might face some bugs for which I may not have provided all the solutions. I also faced a few silly bugs, such as Rocket failing and main.rs not sending requests. I just changed the code based on solutions from Reddit and StackOverflow to find the one that worked for everyone. Additionally, I didn't specifically classify the WSL2 installation because it's obvious that it’s for a different OS. However, I tried to include links to the updated releases so you can download the latest supported version for your device. Hope you don't face any bugs while following my steps. :)**
+
+also some commands like curl , git, cd , etc are same as windows and linux not sure about cargo or rust framework commands.
 
 🖥️ My Setup  
 OS: WSL2 with Kali Linux  
@@ -419,6 +421,7 @@ git pusing to github(just pasted my terminal for refrence and removed unwanted t
 
 212  git status
 
+//hey here cat command actually in linux just reads or modifys the data of the files what i did was just put the data in it
 
 213  cat > .gitignore << 'EOF'
 # Rust
@@ -455,6 +458,8 @@ git pusing to github(just pasted my terminal for refrence and removed unwanted t
 
   222  git status
 ```
+
+
 
 # 👋 Thanks for Reading!
 
