@@ -29,7 +29,7 @@ Goal: Assess fundamental backend development skills — API design, request hand
 Context: HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.  
 Assignment Build a simple backend API service to log and manage AI safety incidents.  
 
-## **quick note :- before diving into project you might face some bugs which imay not provided all solutions i also faced few silly bugs such as rocket failure , main.rs not sends request just changed the codes from redit and stackoverflow to see the most solution that worked for everyone home you face no bug while following my steps :)**
+### **quick note :- before diving into project you might face some bugs which imay not provided all solutions i also faced few silly bugs such as rocket failure , main.rs not sends request just changed the codes from redit and stackoverflow to see the most solution that worked for everyone home you face no bug while following my steps :)**
 
 🖥️ My Setup  
 OS: WSL2 with Kali Linux  
