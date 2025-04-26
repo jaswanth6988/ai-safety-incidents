@@ -24,12 +24,10 @@ Still, Rust is awesome:
 # 🎯 Quick Professional Summary  
 
 🏢 Backend Intern Take-Home Assignment: HumanChain AI Safety Incident Log API  
-Goal:  
-Assess fundamental backend development skills — API design, request handling, data persistence.  
-Context:  
-HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.  
-Assignment  
-Build a simple backend API service to log and manage AI safety incidents.  
+
+Goal: Assess fundamental backend development skills — API design, request handling, data persistence.  
+Context: HumanChain is a deep-tech AI startup working on AI Safety, trying to make the digital world safer, trustworthy, and human-centric.  
+Assignment Build a simple backend API service to log and manage AI safety incidents.  
 
 
 🖥️ My Setup  
@@ -75,12 +73,13 @@ During build
 6 directories, 19 files
 ```
 
-⚡ Why These Choices?
-Choice	Reason
-Rust =>	Memory safety (no segmentfaults), blazing fast, amazing error handling.
-Rocket	=> Compile-time checks, fast request handling, secure & easy to use.
-SQLite	=> Lightweight, single-file DB — no server setup needed.
-Diesel	=> Safe and efficient ORM for Rust + SQLite.
+⚡ Why These Choices?  
+
+Choice	Reason  
+Rust =>	Memory safety (no segmentfaults), blazing fast, amazing error handling.  
+Rocket	=> Compile-time checks, fast request handling, secure & easy to use.  
+SQLite	=> Lightweight, single-file DB — no server setup needed.  
+Diesel	=> Safe and efficient ORM for Rust + SQLite.  
  
 
 A secure, lightweight REST API for logging and managing AI safety incidents, built with Rust, Rocket, and Diesel (SQLite).
