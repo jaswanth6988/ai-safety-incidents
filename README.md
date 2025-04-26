@@ -21,7 +21,7 @@ Still, Rust is awesome:
 💬 C++-like syntax, but oh boy... it's like hard mode unlocked 😂 — you have to think hard to code hard.
 
 
-#🎯 Quick Professional Summary
+# 🎯 Quick Professional Summary
 
 🏢 Backend Intern Take-Home Assignment: HumanChain AI Safety Incident Log API
 Goal:
@@ -39,6 +39,39 @@ Framework: Rocket
 Database: SQLite
 ORM & Query Builder: Diesel
 Some Tools: chrono, serde, dotenv, git
+
+treestructure:-
+During build
+![Screenshot 4](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(4).png)
+┌──(jash㉿DESKTOP-OIUGBAA)-[/mnt/d/KaliWsl/ai-safety-incidents]
+└─$ tree -L 3 -I 'target|.git'
+.
+├── assets
+│   ├── screenshot (1).png
+│   ├── screenshot (2).png
+│   ├── screenshot (3).png
+│   ├── screenshot (4).png
+│   ├── screenshot (5).png
+│   ├── screenshot (6).png
+│   └── screenshot (7).png
+├── Cargo.lock
+├── Cargo.toml
+├── data
+│   └── incidents.db
+├── diesel.toml
+├── migrations
+│   └── 2025-04-26-191207_create_incidents
+│       ├── down.sql
+│       └── up.sql
+├── README.md
+├── Rocket.toml
+└── src
+    ├── db.rs
+    ├── main.rs
+    ├── models.rs
+    └── schema.rs
+
+6 directories, 19 files
 
 
 ⚡ Why These Choices?
@@ -60,7 +93,7 @@ Endpoint	Method	Description
 /incidents/{id}	DELETE	Delete an incident
 
 
-#📦 Incident Model:
+# 📦 Incident Model:
 
 ```
 {
@@ -73,7 +106,7 @@ Endpoint	Method	Description
 ```
 
 
-#🛠️ Setup
+# 🛠️ Setup
 
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org)  
 [![Rocket](https://img.shields.io/badge/Rocket-0.5-red.svg)](https://rocket.rs)  
@@ -84,7 +117,7 @@ Rust 1.70+ →  ``` curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | 
 SQLite3 → ``` sudo apt install sqlite3 libsqlite3-dev ```
 Diesel CLI → ```cargo install diesel_cli --no-default-features --features sqlite```
 
-#📌 Create the Project
+# 📌 Create the Project
 1. Create a new Rust project
 ```
 cargo new ai-safety-incidents
@@ -301,6 +334,8 @@ cargo build
 
 cargo run
 ```
+![Screenshot 1](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(1).png)
+![Screenshot 2](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(2).png)
 
 
 📡 API Usage
@@ -316,6 +351,8 @@ List All Incidents
 ```
 curl http://localhost:8000/incidents
 ```
+just ignore error in middle its just a error because iam not in folder so it cant locate file
+![Screenshot 5](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(5).png)
 
  POST (i just pasted what i used in my terminal danm just change you data you want)
 ```
@@ -335,6 +372,8 @@ GET
 ```
 curl http://localhost:8000/incidents
 ```
+![Screenshot 6](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(6).png)
+
 
 DELETE
 ```
@@ -342,6 +381,7 @@ curl -X DELETE http://localhost:8000/incidents/1
 ```
 
 ERROR(This Response i will try to add images)
+![Screenshot 3](https://github.com/jaswanth6988/ai-safety-incidents/blob/main/assets/screenshot%20(3).png)
 ```
 ┌──(jash㉿DESKTOP-OIUGBAA)-[/mnt/d/KaliWsl/ai-safety-incidents]
 └─$ curl -X DELETE http://localhost:8000/incidents/2
@@ -409,10 +449,7 @@ git pusing to github(just pasted my terminal for refrence and removed unwanted t
   222  git status
 ```
 
-#👋 Thanks for Reading!
+# 👋 Thanks for Reading!
 
 Trust me, Rust will punch you hard at first, but when you get it... it feels like controlling a beast 🚀.
 Happy coding and don forget to hire me 😉!
-
-
-
